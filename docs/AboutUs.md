@@ -50,13 +50,12 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### Anoob Hakim Nael
+### James Doe
 
-<img src="images/naelanoob.png" width="200px">
+<img src="images/johndoe.png" width="200px">
 
-[[github](http://github.com/naelanoob)]
-[[portfolio](team/naelanoob.md)]
+[[github](http://github.com/johndoe)]
+[[portfolio](team/johndoe.md)]
 
 * Role: Developer
-* Responsibilities: UI + Documentation
-
+* Responsibilities: UI

@@ -20,7 +20,7 @@ public class ReturnCommandParserTest {
 
     @Test
     public void parse_validInput_success() throws Exception {
-        String input = "b/Percy Jackson on d/20/02/2025";
+        String input = "b/Percy Jackson d/20/02/2025";
         ReturnCommand command = parser.parse(input);
 
         assertEquals(new BookName("Percy Jackson"), getField(command, "bookName", BookName.class));

@@ -26,7 +26,7 @@ public class ExtendCommand extends Command {
     public static final String MESSAGE_USAGE = COMMAND_WORD
             + ": Extends the duration for which the user can borrow a book without paying overdue fees.\n"
             + "Parameters: "
-            + PREFIX_BOOK + "BOOK NAME"
+            + PREFIX_BOOK + "BOOK_NAME"
             + PREFIX_EMAIL + "EMAIL"
             + "\n"
             + "Example: " + COMMAND_WORD + " "

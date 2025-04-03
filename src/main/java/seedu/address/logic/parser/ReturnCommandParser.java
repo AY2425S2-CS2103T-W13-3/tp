@@ -16,7 +16,7 @@ import seedu.address.model.book.BookName;
 public class ReturnCommandParser implements Parser<ReturnCommand> {
 
     private static final String PREFIX_BOOK = "b/";
-    private static final String PREFIX_DATE = "on d/";
+    private static final String PREFIX_DATE = "d/";
 
     @Override
     public ReturnCommand parse(String args) throws ParseException {
@@ -40,7 +40,7 @@ public class ReturnCommandParser implements Parser<ReturnCommand> {
     }
 
     private String getUsage() {
-        return "return b/<book_name> on d/<return_date>\nExample: return b/Percy Jackson on d/20/02/2025";
+        return "return b/<book_name> d/<return_date>\nExample: return b/Percy Jackson d/20/02/2025";
     }
 
 }

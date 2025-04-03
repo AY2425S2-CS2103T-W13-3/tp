@@ -181,6 +181,48 @@ Lists all books in the catalog.
 
 Format: `list_books`
 
+### Issue a book to a person : `issue`
+
+Issues a book to the specified person
+
+Format: `issue b/BOOK_NAME e/EMAIL`
+
+Example:
+`issue b/Harry Potter e/alexyeoh@example.com`
+
+### Return a book : `return`
+
+Returns a borrowed book
+
+Format: `return b/BOOK_NAME d/RETURN_DATE` 
+
+Example:
+`return b/Percy Jackson d/20/02/2025`
+
+### Listing books borrowed by a person : `list_borrowed_books`
+
+List all books borrowed by the specified person
+
+Format: `list_borrowed_books e/EMAIL`
+
+Example:
+`list_borrowed_books e/alexyeoh@example.com`
+
+### Display overdue books: `display_overdue`
+
+Displays all overdue book
+
+Format: `display_overdue`
+
+### Extend return date of a borrowed book : `extend`
+
+Extends the duration for which the user can borrow a book without paying overdue fees
+
+Format: `extend b/BOOK_NAME e/EMAIL`
+
+Example:
+`extend b/Harry Potter e/alexyeoh@example.com`
+
 ### Clearing all entries : `clear`
 
 Clears all entries from the address book.
@@ -238,7 +280,12 @@ Action     | Format, Examples
 **Edit**   | `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [t/TAG]…​`<br> e.g.,`edit 2 n/James Lee e/jameslee@example.com`
 **Find**   | `find KEYWORD [MORE_KEYWORDS]`<br> e.g., `find James Jake`
 **List**   | `list_users [n/NAME] [e/EMAIL] [m/MEMBERSHIP_STATUS] [a/ADDRESS]` <br> e.g., `list_users m/ACTIVE`
-**Add Book**   | `add_book b/NAME_OF_BOOK` <br> e.g., `add_book b/Wizard of Oz`
-**Delete Book**   | `delete_book b/NAME_OF_BOOK` <br> e.g., `delete_book b/Wizard of Oz`
+**Add Book**   | `add_book [b/BOOK_NAME]` <br> e.g., `add_book b/Wizard of Oz`
+**Delete Book**   | `delete_book [b/BOOK_NAME]` <br> e.g., `delete_book b/Wizard of Oz`
 **List Books**   | `list_books`
+**Issue Book**   | `issue [b/BOOK_NAME] [e/EMAIL]` <br> e.g., `issue b/Harry Potter e/alexyeoh@example.com`
+**Return Book**  | `return [b/BOOK_NAME] [d/RETURN_DATE]` <br> e.g., `return b/Percy Jackson d/20/02/2025`
+**List Borrowed Books**  | `list_borrowed_books [e/EMAIL]` <br> e.g., `list_borrowed_books e/alexyeoh@example.com`
+**Display Overdue Books** | `display_overdue`
+**Extend Return Date**  |  `extend [b/BOOK_NAME] [e/EMAIL]` <br> e.g., `extend b/Harry Potter e/alexyeoh@example.com`
 **Help**   | `help`

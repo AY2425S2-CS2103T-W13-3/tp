@@ -327,7 +327,6 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 | `* *`  | librarian | list users based on a filter                                  | look at users based on a certain criteria                      |
 | `* *`  | librarian | check the due fees of a member                                | ensure members pay the correct fee                             |
 | `*`    | librarian | see a list of overdue books and their corresponding users     | monitor the status of borrowed books                           |
-| `* *`  | librarian | update book information                                       | ensure that book records remain accurate                       |
 | `*`    | librarian | send automated reminders for overdue books or membership fees | keep members updates on overdue books/fees                     |
 
 *{More to be added}*

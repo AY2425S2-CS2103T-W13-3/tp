@@ -227,7 +227,7 @@ with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
 with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-cases","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddressBook")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
+with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("BookVault")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddressBook")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: Delete a person")])])}
@@ -242,7 +242,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list persons")]
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. No persons exist in AddressBook.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("3a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: Add a person")])])}
@@ -287,7 +287,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list all person
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("4a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("5a. Given index for person is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("5a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("5b. Given index for book is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("5b1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 4.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. No persons exist in the AddressBook.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("4a. No books exist in AddressBook.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("4a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("5a. Given index for person is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("5a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("5b. Given index for book is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("5b1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 4.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
@@ -365,6 +365,6 @@ with(this){return _c('p',[_c('strong',[_v("Team size: 5")])])}
 with(this){return _c('ol',[_c('li',[_c('p',[_c('strong',[_v("Improve quality of output messages example dates and fines")]),_v(" "),_c('em',[_v("Current:")]),_v(" Dates are printed numerically "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("20-04-2025")]),_v(" and fines are printed without currency example"),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("15")]),_c('br'),_v(" "),_c('em',[_v("Planned:")]),_v(" Use more user-friendly format such as "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("20th April, 2025")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("owes 15$")])])]),_v(" "),_c('li',[_c('p',[_c('strong',[_v("Implement command to fetch user index")]),_v(" "),_c('em',[_v("Current:")]),_v(" Delete command uses "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("index")]),_v(" to delete user."),_c('br'),_v(" "),_c('em',[_v("Planned:")]),_v(" Implement command to fetch user "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("index")]),_v(" or modify existing command to use "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("email")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_c('strong',[_v("Implement membership fees and tracking")]),_c('br'),_v(" "),_c('em',[_v("Current:")]),_v(" Membership status is hard coded during insertion\n"),_c('em',[_v("Planned:")]),_v(" Track membership status using dates and implement renew membership command.")])]),_v(" "),_c('li',[_c('p',[_c('strong',[_v("Warn before deleting user with loans")]),_c('br'),_v(" "),_c('em',[_v("Current:")]),_v(" Deletes silently"),_c('br'),_v(" "),_c('em',[_v("Planned:")]),_v(" Prompt: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("User still has borrowed books. Confirm delete?")])])]),_v(" "),_c('li',[_c('p',[_c('strong',[_v("Implement feature for automated reminders")]),_c('br'),_v(" "),_c('em',[_v("Current:")]),_v(" Users not notified of overdue books/ outstanding fines.\n"),_c('em',[_v("Planned:")]),_v(" Notify users by sending an email.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 7 Apr 2025, 23:36:39 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 0:18:13 GMT+8]")])])])}
 }];
   

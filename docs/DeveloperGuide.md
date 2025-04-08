@@ -545,16 +545,16 @@ This project involved moderate-to-high difficulty due to managing multiple entit
 ## **Appendix: Planned Enhancements**
 
 **Team size: 5**
-1. **Improve quality of output messages example dates and fines**
-   *Current:* Dates are printed numerically `20-04-2025` and fines are printed without currency example`15`  
-   *Planned:* Use more user-friendly format such as `20th April, 2025` and `owes 15$`
+1. **Implement tracking of book status and borrow history across multiple runs**
+   *Current:* Existing version does not store book status and borrow history in memory after each run.
+   *Planned:* Store book status and borrow history in memory to ensure long term usability.
 
-2. **Implement command to fetch user index**
-   *Current:* Delete command uses `index` to delete user.   
-   *Planned:* Implement command to fetch user `index` or modify existing command to use `email`.
+2. **Improve quality of output messages in filtering commands**
+   *Current:* For example in list_user command if no user satisfies the criteria the standard output message `Listed all persons` seems misleading.
+   *Planned:* Integrating more suitable output messages for edge cases.
 
 3. **Implement membership fees and tracking**  
-   *Current:* Membership status is hard coded during insertion 
+   *Current:* Membership status is hard coded during insertion
    *Planned:* Track membership status using dates and implement renew membership command.
 
 4. **Warn before deleting user with loans**  
@@ -565,13 +565,18 @@ This project involved moderate-to-high difficulty due to managing multiple entit
     *Current:* Users not notified of overdue books/ outstanding fines.
     *Planned:* Notify users by sending an email.
 
-6. **Implement filter by tags functionality for Book Search**
+6. **Implement command to fetch user index**
+   *Current:* Delete command uses `index` to delete user.   
+   *Planned:* Implement command to fetch user `index` or modify existing command to use `email`
+
+7. **Implement filter by tags functionality for Book Search**
    *Current:* Existing command to list all books.  
    *Planned:* Add functionality to filter the search by relevant tags such as book name, author and tags.
-   
-7. **Implement long term tracking of book status and borrow history**
-   *Current:* Existing version does not store book status and borrow history in memory after each run. 
-   *Planned:* Store book status and borrow history in memory to increase long term usability.
+
+8. **Print dates in a more readable format**
+   *Current:* Dates are printed numerically `20-04-2025` and fines are printed without currency example`15`  
+   *Planned:* Use more user-friendly format such as `20th April, 2025` and `owes 15$`
+
 
 
 

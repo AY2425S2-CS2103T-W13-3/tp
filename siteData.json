@@ -41,6 +41,7 @@
       "headings": {
         "bookvault-developer-guide": "BookVault Developer Guide",
         "acknowledgements": "Acknowledgements",
+        "core-libraries-and-tools-used": "Core Libraries and Tools Used",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
         "architecture": "Architecture",
